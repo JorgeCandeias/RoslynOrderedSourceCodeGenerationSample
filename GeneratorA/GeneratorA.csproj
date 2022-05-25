@@ -11,7 +11,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\SecondGenerator\GeneratorB.csproj" />
+		<ProjectReference Include="..\GeneratorB\GeneratorB.csproj" />
 	</ItemGroup>
 
 </Project>

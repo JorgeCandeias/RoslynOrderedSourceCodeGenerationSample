@@ -5,9 +5,9 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{B9C8CFB0-8399-4DF1-A20E-38FF46AA5304}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneratorA", "FirstGenerator\GeneratorA.csproj", "{DCE83FF5-1A91-4881-8AA1-00181017D906}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneratorA", "GeneratorA\GeneratorA.csproj", "{DCE83FF5-1A91-4881-8AA1-00181017D906}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneratorB", "SecondGenerator\GeneratorB.csproj", "{28127EF7-A8CC-4909-A6ED-7EAE86D39F1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneratorB", "GeneratorB\GeneratorB.csproj", "{28127EF7-A8CC-4909-A6ED-7EAE86D39F1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

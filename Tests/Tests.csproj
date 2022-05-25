@@ -22,8 +22,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\FirstGenerator\GeneratorA.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="true" />
-		<ProjectReference Include="..\SecondGenerator\GeneratorB.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="true" />
+		<ProjectReference Include="..\GeneratorA\GeneratorA.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="true" />
+		<ProjectReference Include="..\GeneratorB\GeneratorB.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="true" />
 	</ItemGroup>
 
 </Project>
