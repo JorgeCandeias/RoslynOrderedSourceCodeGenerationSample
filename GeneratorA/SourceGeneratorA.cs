@@ -25,8 +25,8 @@ public class SourceGeneratorA : ISourceGenerator
             foreach (var candidate in receiver.Candidates)
             {
                 var source = Generate(candidate);
-                sources.Add(source);
 
+                sources.Add(source);
                 context.AddSource($"{candidate.Name}.a.g.cs", source);
             }
         }
@@ -39,9 +39,10 @@ public class SourceGeneratorA : ISourceGenerator
             compilation = compilation.AddSyntaxTrees(tree);
         }
 
-        var driver = CSharpGeneratorDriver.Create(new SourceGeneratorB());
-        driver = (CSharpGeneratorDriver)driver.RunGenerators(compilation);
-        var result = driver.GetRunResult();
+        var result = CSharpGeneratorDriver
+            .Create(new SourceGeneratorB())
+            .RunGenerators(compilation)
+            .GetRunResult();
 
         foreach (var item in result.Results)
         {
